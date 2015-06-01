@@ -169,8 +169,8 @@ public abstract class NetworkProcessor implements Runnable, Closeable
  Options.set("cache_verbose");
  Options.set("mdns_network_verbose");
  Options.set("network_verbose");
+ Options.set("mdns_network_thread_monitor");
          */
-        Options.set("mdns_network_thread_monitor");
         verboseLogging = Options.check("mdns_network_verbose") || Options.check("network_verbose") || Options.check("mdns_verbose") || Options.check("verbose");
         threadMonitoring = Options.check("mdns_network_thread_monitor");
         
