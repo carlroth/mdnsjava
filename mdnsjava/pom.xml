@@ -7,9 +7,19 @@
     <packaging>jar</packaging>
     <name>mdnsjava</name>
 
+    <!--
     <dependencies>
         <dependency>
             <groupId>org.xbill</groupId>
+            <artifactId>dnsjava</artifactId>
+            <version>2.1.6</version>
+        </dependency>
+    </dependencies>
+    -->
+    
+    <dependencies>
+        <dependency>
+            <groupId>dnsjava</groupId>
             <artifactId>dnsjava</artifactId>
             <version>2.1.6</version>
         </dependency>
